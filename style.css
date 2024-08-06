@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(187, 187, 187);
+}
+button{
+    font-size: 18px;
+    border: none;
+    padding: 12px 16px;
+    color: rgb(7, 7, 7);
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    background-color: rgb(122, 255, 140);
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+
+}
+
+button:active{
+    background-color: rgb(125, 255, 99);
+}
+
+button:hover{
+    background-color: ;
+}
+
+.meme-title{
+    width: 100%;
+    margin-bottom: 1.5vw;
+    font-size: 24px;
+    font-weight: 600;
+}
+#container{
+    border-radius: 5px;
+    max-width: 400px;
+    padding: 15px 19px;
+    margin-inline:  auto;
+    background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 16px;
+}
+
+h1{
+    font-size: 2em;
+    color: #222222;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+p{
+    margin-top: 0.7vw;
+    font-size: 17px;
+    font-weight:500 ;
+}
